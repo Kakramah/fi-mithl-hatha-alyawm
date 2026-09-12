@@ -423,17 +423,7 @@ figcaption {
   margin-bottom: 1.5rem;
 }
 
-/* Drop-caps */
-.drop-cap::first-letter {
-  font-family: 'Cairo', sans-serif;
-  font-weight: 700;
-  font-size: 3.5em;
-  line-height: 0.8;
-  float: right;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  color: var(--gold);
-}
+/* الحرف الاستهلالي أُزيل 2026-09-12: ::first-letter يقطع الحرف العربي عن وصله («لم» ← «ل» + «م») */
 
 /* Pull-quotes */
 .pull-quote {
